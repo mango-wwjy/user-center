@@ -26,6 +26,7 @@ public class MybatisPlusConfig {
         // 乐观锁插件
         interceptor.addInnerInterceptor(optimisticLockerInnerInterceptor());
         return interceptor;
+
     }
 
 
